@@ -1,1 +1,7 @@
-flexbox
+flexbox lay out
+    <style>
+    flex property display; flex
+    .container
+    { display : flex;}
+    </style>
+
