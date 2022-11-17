@@ -1,0 +1,42 @@
+.header-section .name {
+background-color: antiquewhite;
+width: 1950px;
+font-family: sans-serif;
+padding-left: 50px;
+padding-right: 50px;
+/* padding-left: 100px; */
+
+}
+.div1 {
+
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.objective {
+    font-weight: 300;
+    margin-bottom: -20px;
+   border-bottom: 1px solid black;
+   font-family: sans-serif;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.education {
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.workexperinces {
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.seminars {
+    border-bottom: 1px solid black;
+    font-family: sans-serif; padding-left: 50px;
+    padding-right: 50px;
+}
+
