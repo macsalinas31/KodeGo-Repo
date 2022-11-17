@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.header {
+    background-color: rgb(248, 178, 80);
+    padding: 5px;
+}
+    
+ .hotelname {padding-right:50px; padding-left: 50px;color: black; text-align: center;}
+.navigationbar {
+    width:800px; text-align:right; padding-left: 750px; padding-right: 65px;font-weight: bold;
+
+}
+.nav {
+    color: black;
+ 
+}
+.navigationbar a {
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+.navigationbar a:hover {
+    color: #f7fcff;
+}
+/* 2nd div */
+.abouthotel {
+    background-color:bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+.about {
+    color: black;
+}
+.hotel {
+    color: rgb(248, 142, 12);
+}
+
+/* image */
+.banner {
+    width: 350px;
+    border-radius: 25%;
+}
+
+.reviewbox {
+    background-image: url(../images/hotel.2.jpg);
+    padding: 150px 0 150px 0;
+    /* height:150px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reviewbox .comments {
+
+    padding: 10px;
+        background-color: rgba(122, 90, 11, 0.322);
+        opacity:5;
+        color: rgb(202, 184, 161);
+        border-radius: 10px;
+        margin: 0px 500px 0px 500px;
+        width: 900px;
+        height: 100px;
+
+        
+}
+.subreview {
+    text-align: center;
+}
+
+
+
+.footer-container {
+    background-color: bisque;
+    text-align: center;
+}
+
+.comments {
+    /* border: 1px solid black; */
+}
+.first {
+    padding-bottom: 100px;
+    
+}
+
+.second {
+    padding-bottom: 100px;
+}
+</style>
+
+</head>
+<body>
+    <!-- header div -->
+    <div class="container">
+        <div class="header">
+            <table border="0">
+                <tr>
+                    <td class="hotelname">
+                        <h1>Hotel Vista</h1>
+                    </td>
+                    <td class="navigationbar">
+
+                     <span class="nav"><a href="#">Home</a></span>
+                     <span class="nav"><a href="#">Rooms</a></span>
+                     <span class="nav"><a href="#">Rate</a></span>
+                     <span class="nav"><a href="#">Services</a></span>
+                     <span class="nav"><a href="#">Meetings</a></span>
+                     <span class="nav"><a href="#">Restaurants</a></span>
+                     <span class="nav"><a href="#">Contact us</a></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- second row div -->
+    <div class="abouthotel">
+        <table border="0">
+            <tr>
+                <!-- artile about the hotel -->
+                <td>
+                    <h2>
+                        <span class="about">About</span>
+                        <span class="hotel">Hotel Vista</span>
+                    </h2>
+                    <h4>
+                        <p>The Hotel Vista  is located in beautiful Monteverde, famous for its rare and gorgeous cloud forest and friendly community. The views of the Gulf of Nicoya from the hotel's 4,200 foot elevation are spectacular. Experience Hotel Fonda Vela's natural approach to life with style! Surrounded by beautiful tropical gardens, our buildings are an attractive part of the lush, tropical mountainside. </p>
+                            
+                            <p>The rooms are cozy, yet elegant, spacious and comfortable. Each room is designed with the environment in mind. For example, large windows help to bring the outdoors inside.</p>
+                    </h4>
+                </td>
+                <td>
+                    <!-- image -->
+                    <img class="banner" src="..//images/lamphotel.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+<!-- 3rd div -->
+
+<div class="reviewbox">
+    
+    <h3 class="subreview">What our guest says about us!</h3>
+            <!-- guest -->
+        <div class="first">
+            <div class="pic1"></div>
+            <div class="comments"><p>"Great central location
+                I stayed at Hotel Vista for a night, really enjoyed its location in the city centre where everything is within walking distance. The staff was very helpful, breakfast really delicious, and the room nice. I appreciated the luggage room option as well."</p></div>
+        </div>
+        <!-- 2nd guest -->
+        <div class="second">
+            <div class="pic2">
+                <div class="comments"><p>"Nice jazz-evening in Hotel Arthur's restaurant
+                    Room was just for my needs for this type of "staycation. Suprisingly fun jazz evening with good tapas table and nice wines. Hotels location is perfect and breakfast really ok with warm dishes and good coffee. What else do you need?"
+                </p></div>
+            </div>
+        </div>
+<!-- 3rd guest -->
+        <div class="3rd">
+            <div class="pic3">
+                <div class="comments"> <p>"Beautiful stay!
+                    Hotel Arthur is a perfect place to stay in Helsinki. It is close to the center and the railway station. The room was very pleasant, it was cozy and clean. Breakfast was excellent and incredibly varied. The hotel team has always been friendly, patient and helpful. That impressed me the most. No matter what time of day or night, you could turn to them with all your concerns. On my next stays, I will definitely check into Hotel Arthur again. The price performance ratio is very good."</p></div>
+                    </div>
+            </div>
+        </div>
+       
+        
+
+</div>
+
+<div class="footer-container">
+    <div class="text-holder">
+         Hotel Vista @ 2022, All Right Reserved
+    </div>
+</div>
+
+</body>
+</html>
