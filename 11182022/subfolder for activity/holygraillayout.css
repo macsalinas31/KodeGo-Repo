@@ -22,7 +22,12 @@ aside
     background-color: darksalmon;
   
 }
-
+nav {
+    width: 25%;
+    
+    background-color:blanchedalmond;
+   
+}
 body {
     margin: 0;
       /* justify-content: space-around; */
