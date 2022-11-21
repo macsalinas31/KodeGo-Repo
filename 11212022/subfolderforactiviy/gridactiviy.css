@@ -8,13 +8,17 @@
     /* height: 90vh; */
     width: 1000px;
     margin: auto;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
+    border-radius: 10px;
     
 }
 .container1 {
+    border-collapse: collapse;
     grid-column: 1 / 2;
     background-color: aquamarine;
     padding: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
 }
 
 .container2 {
@@ -24,7 +28,7 @@
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
 }
 input,
 textarea {
