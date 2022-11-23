@@ -6,9 +6,11 @@
     border: solid green;
     justify-content: center;
     width: 100%;
-    /* gap: 10px; */
+    
     display: flex;
     flex-direction: column;
+    
+  
 
 }
 .header {
@@ -20,24 +22,25 @@
 }
 .navigation {
     background-color: gray;
-
+   
 }
 .navigation .navs {
     display: flex;
     list-style: none;
+    text-decoration: none;
     padding:10px;
-    column-gap: 40px;
+    column-gap: 50px;
     margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 .article {
     display: flex;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     margin-top: 0;
     padding-top: 0;
     border-collapse: collapse;
+   
 }
 .article1 {
 width: 800px;
@@ -54,11 +57,14 @@ border: 1px solid green;
     padding: 10px;
     border: 1px solid green;
 }
+
 @media screen and (max-width: 600px){
     .article {
       flex-wrap: wrap;
     }
     .navigation .navs{
         flex-wrap: wrap;
+       
     }
+    
 }
