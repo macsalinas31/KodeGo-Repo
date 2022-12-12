@@ -72,3 +72,61 @@ console.log(numbers);
 //insert at index 5
 numbers.splice(5, 0, 12);
 console.log(numbers)
+
+//repalce item at index 3
+numbers.splice(3, 1, 45);
+console.log(numbers);
+
+//delete 2 itesm starting at index 6
+numbers.splice(6, 2,  );
+console.log(numbers);
+
+//creating arrays
+// define a variable called lottoNumbers set it equal to an array with any 6 numbers
+
+const lottoNumbers = [ 10, 13, 21, 24, 31, 18 ];
+
+const leaderBoard = [ "Shai", "Jamie", "Glenn", "Kenn", "Jason" ];
+
+//get value of index 0 / top 1
+//correct the spellingof "Jamie" to "Jaime"
+//Replace "Jason" to "Ringgo"
+
+leaderBoard[0];
+leaderBoard[1] = "Jaime";
+// leaderBoard[4] = "Ringgo"; or
+leaderBoard.splice(4, 1, "Ringgo");
+console.log(leaderBoard);
+
+//push, popm, shift, unshift
+
+const solarSystem = [ "Moon", "Venus", "Earth", "Mars", "Jupiter" ];
+
+//remove "Moon"
+//add "Mercury" at the start
+//add "Saturn" at the end
+// ["Mercury, "Venus", "Earth", "Mars", "Jupiter", "Saturn"]
+
+
+solarSystem.shift();
+solarSystem.unshift("Mercury");
+solarSystem.push("Saturn");
+console.log(solarSystem);
+
+
+//multi-dimensional array or 2d
+const matrix = 
+[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]; 
+
+// column 0, 1, 2
+// row 0 [1, 2, 3]
+//rown 1 [4, 5, 6]
+//rown 2 [7, 8, 9]
+
+
+console.log(matrix [2] [1] );
+
