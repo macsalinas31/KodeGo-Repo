@@ -180,3 +180,18 @@ console.log(num--);
 //code block
 console.log(num);
 num++;
+
+//while loop
+num = 5;
+while (num > 0) //condition
+{
+ 
+//code block
+console.log(num--);
+}
+
+//do//while
+num = 5;
+do {
+    console.log(num++);
+} while (num < 5);
