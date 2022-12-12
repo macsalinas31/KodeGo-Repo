@@ -32,34 +32,43 @@ let sum = 0;
 
 
 
-//callback function: functiosn used as arguments
-numbers.forEach(  
+// //callback function: functiosn used as arguments
+// numbers.forEach(  
 
-        ( number ) => {
-           sum += number;
-        }
- ); //foreach ay para lamang sa mga array
+//         ( number ) => {
+//            sum += number;
+//         }
+//  ); //foreach ay para lamang sa mga array
 
-console.log(sum);
+// console.log(sum);
 
-const months =  [" January", "February", "March", "April" ];
-        months.forEach (
-            ( index, elements ) => {
-                // console.log ( `Index: ${index} - ${elements}`);
+// const months =  [" January", "February", "March", "April" ];
+//         months.forEach (
+//             ( index, elements ) => {
+//                 // console.log ( `Index: ${index} - ${elements}`);
 
-            }
-        );
-//add item at the end of the array (array.push)
+//             }
+//         );
+// //add item at the end of the array (array.push)
 
-months.push("May");
-console.log(months);
+// months.push("May");
+// console.log(months);
 
-//array.pop - remove item sa array, returh the removed item
-console.log( months.pop() );
-console.log( months );
+// //array.pop - remove item sa array, returh the removed item
+// console.log( months.pop() );
+// console.log( months );
 
-//shift () and unshift ()
+// //shift () and unshift ()
 
-months.unshift("First"); // add item sa unahan
-console.log(months.shift()); //renmoved sa first item lang
-console.log(months);
+// months.unshift("First"); // add item sa unahan
+// console.log(months.shift()); //renmoved sa first item lang
+// console.log(months);
+
+//array.splice - sa gitna naman iremove , pwede add, remove, replace sa kahit anung lugar sa array
+//splice(start/index kung san magstart/,deleteCount ilan ang idelete mukla sa start/,item(s) )
+
+console.log(numbers);
+
+//insert at index 5
+numbers.splice(5, 0, 12);
+console.log(numbers)
