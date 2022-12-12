@@ -127,6 +127,6 @@ const matrix =
 //rown 1 [4, 5, 6]
 //rown 2 [7, 8, 9]
 
-
+console.log(matrix);
 console.log(matrix [2] [1] );
 
