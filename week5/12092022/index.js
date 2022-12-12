@@ -183,15 +183,50 @@ num++;
 
 //while loop
 num = 5;
-while (num > 0) //condition
-{
+// while (num > 0) //condition
+// {
  
-//code block
-console.log(num--);
-}
+// //code block
+// console.log(num--);
+// }
 
 //do//while
 num = 5;
 do {
     console.log(num++);
 } while (num < 5);
+
+//for loop
+// for (initialization; condition; post-loop operatio)
+for ( let i = 0; i < 5; i++ ) {
+
+    if (i === 3) {
+    console.log(i)
+    }
+}
+
+//prompt user input
+
+const input = Number ( prompt("Enter a number: ") );
+// const  numSample = Number ("50");
+
+console.log(input + 25);
+
+///
+
+//function
+
+//function declaration
+function add(num1, num2) {
+    return num1 + num2;
+    
+}
+
+// () = invoker
+const sum1 = add(10, 5); //15
+console.log(sum1)
+
+// function expression
+const subtract = function () {
+    
+}
