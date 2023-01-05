@@ -6,8 +6,10 @@ btnToggle.addEventListener (
     () => {
         /*
             1. check yung display property ng content div   
-            2. pag dispalay none, show the div (block)     
+            2. pag display none, show the div (block)     
             3. elese, hide ung div
+
+            = element.style.cssProperty
         */
             if (content.style.display === "none") {
                 content.style.display = "block";
