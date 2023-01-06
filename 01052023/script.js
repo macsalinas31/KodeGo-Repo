@@ -12,9 +12,21 @@ btnToggle.addEventListener (
             = element.style.cssProperty
         */
             if (content.style.display === "none") {
+                //show the content
                 content.style.display = "block";
             } else {
+                //hide the content
                 content.style.display = "none";
             }
+    }
+)
+
+const btnToggletext = document.querySelector('#toggleText')
+const text = document.querySelector('#text')
+
+btnToggletext.addEventListener(
+    "click",
+    () =>{
+        text.classList.toggle('box');
     }
 )
