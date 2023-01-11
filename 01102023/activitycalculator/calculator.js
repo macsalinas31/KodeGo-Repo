@@ -11,6 +11,7 @@ keys.forEach(
 
 function calculate(){
     let buttonText = this.innerText;
+    //console.log(buttonText)
     if(buttonText==="C"){
         output.innerText = "";
         result.innerText = "0";
