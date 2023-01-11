@@ -2,44 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
 </head>
 <body>
-
-    <section>
-        <div class="container">
-            <div id="display"></div>
-            <div class="buttons">
-                <div class="button">C</div>
-                <div class="button">/</div>
-                <div class="button">*</div>
-                <div class="button">&larr;</div>
-                <div class="button">7</div>
-                <div class="button">8</div>
-                <div class="button">9</div>
-                <div class="button">-</div>
-                <div class="button">4</div>
-                <div class="button">5</div>
-                <div class="button">6</div>
-                <div class="button">+</div>
-                <div class="button">1</div>
-                <div class="button">2</div>
-                <div class="button">3</div>
-                <div class="button">.</div>
-                <div class="button">(</div>
-                <div class="button">0</div>
-                <div class="button">)</div>
-                <div id="equal" class="button">=</div>
+    <div class="calculator">
+        <div class="display">
+            <div class="output"></div>
+            <div class="result">0</div>
         </div>
-    </section>
+        <div class="input">
+            <button>C</button>
+            <button>(</button>
+            <button>)</button>
+            <button>+</button>
 
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>-</button>
 
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
 
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>/</button>
 
-
-    <script src="./calculator.js"></script>
+            <button>DEL</button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+        </div>
+    </div>
 </body>
+<script src="./calculator.js"></script>
 </html>
