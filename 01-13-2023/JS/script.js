@@ -38,6 +38,14 @@ retrieveBtn.addEventListener(
     () => {
         //retreive movie review from local storage
        const reviews = JSON.parse (localStorage.getItem("Movie Reviews"))
+
+       for (let review of reviews) {
+        //create / insert a table row
+
+        //create / insert cells inside new table row
+
+        // insert values to the table cells
+       }
         
         console.log(reviews)
     }
