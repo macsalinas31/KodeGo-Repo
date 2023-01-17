@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Review</title>
-    <link rel="stylesheet" href="./JS/style.css">
+    <title>Document</title>
 </head>
 <body>
     
     <form id="reviewForm">
-        <label for="title">Movie Title</label>
+        <label for="title">Movie Title:</label>
         <input type="text" name="title" id="title">
         <br><br>
 
-        <label for="year">Year Show:</label>
+        <label for="year">Year Shown:</label>
         <input type="text" name="year" id="year">
         <br><br>
 
@@ -25,21 +24,20 @@
         <input type="submit" value="Add Review">
     </form>
 
-    <div id="display"> 
+    <div id="display">
         <pre></pre>
     </div>
 
-    <button id="retrieveBtn">Retreive from Local Storage</button>
-    <table id="reviewsTable" width="80%" border="2px">
-        <br><br>
+    <button id="retrieveBtn">Retrieve from Local Storage</button>
+    <table id="reviewsTable" width="80%" border="1px">
         <tr>
             <th>Review ID</th>
-            <th>Moview Title</th>
+            <th>Movie Title</th>
             <th>Year Shown</th>
             <th>Review</th>
         </tr>
     </table>
-    
+
     <script src="./JS/script.js"></script>
 </body>
 </html>
