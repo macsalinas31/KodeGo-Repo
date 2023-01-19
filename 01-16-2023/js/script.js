@@ -105,6 +105,7 @@ searchBtn.addEventListener(
     fetch( queryURL, requestOptions )
     .then(res => {
         return res.json();
+        
     })
     .then(result => {
         console.log(result);
