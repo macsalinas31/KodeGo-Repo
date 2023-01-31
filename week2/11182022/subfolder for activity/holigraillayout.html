@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./holygraillayout.css">
+</head>
+<body>
+    <Header>Header</Header>
+
+        <main>
+            <article>
+                <form>
+                    <div class="container">
+                        <div class="flex-box left">
+                            <div class="field field1">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name">
+                            </div> 
+                            <div class="field field2">
+                                <label for="phone">Phone</label>
+                                <input type="text" name="phone" id="phone">
+                            </div>
+                            <div class="field field3">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            <div class="field field4">
+                                <label class="date "for="dateTime">Pickup Date/Time</label>
+                                <input type="datetime-local"name="dateTime" id="dateTime">
+                                <!-- <input type="time" name="dateTime" id="dateTime"> -->
+                            </div>
+                            <div class="field">
+                                <label for="place">Pickup Place</label>
+                                <select name="dropdown" id="place"><option value="HTML" selected>Please select</option>
+                                    <option value="valenzuela">Valenzuela</option>
+                                    <option value="caloocan">Caloocan</option>
+                                    <option value="malabon">Malabon</option>
+                                </select>
+                             </div>
+                             <div class="field">
+                                <label for="dropoff">Dropoff Place</label>
+                                <input type="text" name="dropoff" id="dropoff">
+                            </div>
+                        </div>
+                        <div clas="flex-box right">
+                                <div>
+                                Which vehile do you require? <br>
+
+                                <input type="radio" name="vehicle"  id="vehicle">
+                            <label for="vehicle">Van</label>
+                            <br />
+                            <input type="radio" name="vehicle"  id="vehicle">
+                            <label for="vehicle">Jeepney</label>
+                            <br />
+                            <input type="radio" name="vehicle"  id="vehicle">
+                            <label for="vehicle">Tricycle</label>
+                            <br />
+                                </div>
+                                <br>
+                                <div>
+                                    Extras <br>
+
+                                    <input type="checkbox" name="extra"  id="extra">
+                            <label for="extra">Baby Seat</label>
+                            <br />
+                            <input type="checkbox" name="extra"  id="extra">
+                            <label for="extra">Wheelchair Access</label>
+                            <br />
+                            <input type="checkbox" name="extra"  id="extra">
+                            <label for="extra">Stock Tip</label>
+                                </div>
+                        </div>
+                    </div> 
+                    <br>
+                       
+                    </form>
+                </div>
+                
+                <div>
+                    <div class="btn-container">
+                        <input type="submit" value="Submit Booking">
+                </div>
+            </article>
+            <aside>Aside</aside>
+            <nav> nav</nav>
+        </div>
+        </main>
+        <footer>footer</footer>
+</body>
+</html>

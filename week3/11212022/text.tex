@@ -1,0 +1,63 @@
+CSS GRID
+    used for 2 dimensional layout
+    grid is more recommended whn making complex layout
+
+
+    <style>
+
+    .container
+        {
+            display: grid
+            % para maging grid yung display lay out
+            grid-template-rows: fr 
+            % size ng row
+            grid-template-columns: fr
+            % size ng column
+            gap: vw (viewport with) (px) (%)
+    % gutter /spacing ng grid items
+            repaet () function
+
+                e.g.
+
+                grid template rows:
+                repaet(3 1fr)
+
+        %   specific box/location
+grid-column-start
+end
+start
+    
+grid-row-start
+end
+grid-column
+row-column
+        }
+
+
+box1:
+
+grid-column-start: 1
+grid-column-end: 2
+
+grid-row-start:1
+grid-row-end:2
+
+box2:
+
+grid-column-start: 2
+grid-column-end: 4
+
+grid-row-start:2
+grid-row-end:3
+
+box3:
+grid-column-start: 1
+grid-column-end: 2
+
+grid-row-start:2
+grid-row-end:4
+
+% short hand
+
+grid-column: start/end
+grid-row: start/end
