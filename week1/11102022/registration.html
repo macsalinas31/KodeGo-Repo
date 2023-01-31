@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+<style>
+.allin {
+    border-radius: 50px;
+}
+
+.header {
+    text-align: center; background-color: aqua;
+    border: 1;
+    width: 0px 1000px 0px 1000px;
+    margin: 0px 800px 0px 800px;
+   
+}
+
+.all {
+    background-color: aqua;
+    border: 1;
+    width: 0px 1000px 0px 1000px;
+    margin: 0px 800px 0px 800px;
+}
+</style>
+  
+</head>
+
+   
+<body >
+
+    <h1 class="header">Registration Form</h1>
+    <form>
+        <div class="all">
+        <table align="center">
+             <tr>
+                 <td>
+                    <label for="firstName"><b>First Name:</b></label>
+                </td>
+                <td>
+                    <input type="text" name="firstName" id="firstName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="middleName"><b>Middle Name:</b></label>
+               </td>
+               <td>
+                   <input type="text" name="middleName" id="middleName">
+               </td>
+            </tr>
+            <tr>
+                    <td>
+                     <label for="lastName"><b>Last Name:</b></label>
+                    </td>
+                <td>
+               <input type="text" name="lastName" id="lastName">
+                </td>
+            <tr>
+                    <td>
+                        <label for="address"><b>Address:</b></label> <br>
+                    </td>
+            </tr>
+            <tr>
+                    <td colspan="2">
+                        <textarea name="adress" id="adress" rows="6" style="width:100%" 
+                        placeholder="your address here.."></textarea>
+                    </td>
+             </tr>   
+                    
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="Gender"><b>Gender:</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" id="male">
+                    <label for="male">Male</label> <br>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" id="female">
+                    <label for="female">Female</label> <br>
+                    
+                </td>
+            </tr>
+            
+        </table>
+        <br>
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="dropdown"><b>Career Path Field:</b></label>
+
+                    <select 
+                    name="dropdown" 
+                    id="dropdown"
+                
+                />
+                    <option
+                    selected
+                    disabled>
+                Please Select
+                    
+                        </option>
+                        <option value="frontend_developer">Front-end Developer</option>
+                        <option value="backend_developer">Back-end Developer</option>
+                        <option value="fullstack_developer">Full-stack Developer</option>
+                </td>
+                
+            </tr>
+    
+        </table>
+        <br>
+        <table align="center">
+            <tr>
+                <td class="tech">
+                    <label for="technicalSkills"><b>Technical Skills:</b></label> <br>
+        
+        
+                     <label for="HTML">HTML</label>
+                     <input 
+                     type="checkbox" 
+                     name="skils" 
+                     id="HTML"
+                     value="HTML"
+                    
+                    
+                     />
+
+
+                     <label for="css">CSS</label>
+                    <input 
+                    type="checkbox" 
+                    name="skils" 
+                    id="css"
+                    value="css"
+                    
+        
+                     />
+
+                     <label for="JavaScript">JavaScript</label>
+                     <input 
+                     type="checkbox" 
+                     name="skils" 
+                     id="JavaScript"
+                     value="JavaScript"
+                     
+         
+                      />
+
+
+                      <label for="MySQL">MySQL</label>
+                      <input 
+                      type="checkbox" 
+                      name="skils" 
+                      id="MySQL"
+                      value="MySQL"
+
+
+                      />
+                <br />
+                     <label for="Php">Php</label>
+                     <input 
+                     type="checkbox" 
+                     name="skils" 
+                     id="Php"
+                     value="Php"
+                     
+                     />
+
+                     <label for="Laravel">Laravel</label>
+                     <input 
+                     type="checkbox" 
+                     name="skils" 
+                     id="Laravel"
+                     value="Laravel"
+
+                     />
+
+                     <label for="react-js">React JS</label>
+                     <input 
+                     type="checkbox" 
+                     name="skils" 
+                     id="react-js"
+                     value="react-js"
+
+                     />
+                     <br><br>
+                </td>
+            </tr>
+             <tr align="center">
+            <td colspan="2">
+                <input type="submit" value="submit" 
+                style="width:100%">
+            </td>
+            </tr>
+        </table>
+    </table>
+</div>
+</form>
+
+</body>
+</html>

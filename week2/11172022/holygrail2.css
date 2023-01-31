@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainheader,
+.footer {
+    background-color: greenyellow;
+    height: 10vh;
+    width: 100%;
+}
+.subheader {
+    background-color: aquamarine;
+    height: 10vh;
+    width: 100%;
+   
+}
+main {
+    display:flex;
+    height: 70vh;
+}
+
+nav {
+    background-color: bisque;
+    width: 20%;
+    padding: 10px;
+}
+article {
+    background-color: beige;
+    width: 60%;
+    padding: 10px;
+}
+aside {
+    background-color:darksalmon;
+    width: 30%;
+    padding: 20px;
+}
+body {
+    margin: 0;
+}
