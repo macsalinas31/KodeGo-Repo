@@ -1,0 +1,78 @@
+@@ -5,3 +5,70 @@ flexbox lay out
+    { display : flex;}
+    </style>
+
+    flex-direction:row
+    1234 >>>
+    flex-direction: row-reverse
+    <<<4321
+
+    flex-direction: column 
+    1
+    2
+    3
+    4
+
+    flex-direction: column-reverse
+    4
+    3
+    2
+    1
+
+    flex-wrap: nowrap
+    1 2 3
+    1 2 3
+    1 2 3
+    1 2 3
+    1 2 3
+
+    flex-wrap: wrap
+    1 2 3 4 5
+    6 7 8
+
+
+    Justify Content
+    -horizontal alignment
+
+    <style>
+        flex wrap
+        .container {
+            display : flex
+        
+        Justify-Content: flex-start
+        }
+
+        flex-start (left)
+        flex-end (right)
+        center
+
+        space-between -inbetween items
+        space around - around the items
+        space-evenly - equal between adn around items
+
+    Align-items
+    
+    flex-start
+    flex-end
+    center
+    stretch (dfault)
+    .container {
+        display:flex
+        align-items: flex start
+    }
+
+
+    align-Content
+    flex-start
+    flex-end
+    center
+    stretch
+    space-between
+    space-evenly
+
+      space-between -inbetween items
+        space around - around the items
+        space-evenly - equal between adn around items
+        space-evenly - equal between and around items
+
+    Align-items

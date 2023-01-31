@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <h1>HTML Forms</h1>
+    <br>
+
+    <form>
+        <label for="firstName">First Name:</label>
+        <input 
+            type="text" 
+            name="firstName"
+            size="20"
+            maxlength="20"
+            minlength="5"
+            value=""
+            placeholder="First Name"
+            id="firstName"
+                />
+<br><br>
+        <label for="lastName">Last Name:</label>
+        <input
+            type="text"
+            name="lastName"
+            size="20"
+            maxlength="20"
+            minlength="3"
+            value=""
+            placeholder="Last Name"
+            id="lastName"
+
+                />
+<br /><br />
+        <label for="email ">Email Address:</label>
+            <input
+            type="text"
+            name="email"
+            size="20"
+            maxlength="20"
+            minlength="3"
+            value=""
+            placeholder="email@yourcompany.com"
+            id="email"
+            />
+<br><br>
+    
+            <label for="password">Password:</label>
+            <input 
+            type="password" 
+            id="password"
+            name="password"
+            placeholder="Type in your password"
+                />
+<br /><br />
+
+            <label for="personalInformation">Personal Informartion:</label>
+<br />
+            <textarea 
+            name="feedback" 
+            id="personalInformation" 
+            cols="30" 
+            rows="10"
+            placeholder="Please provide details"
+            /></textarea>
+<br /><br /><br />
+
+            Programing Language: 
+            <label for="JavaScript">JavaScript</label>
+            <input 
+            type="checkbox" 
+            name="programingLanguage" 
+            id="JavaScript"
+            value="JavaScript"
+            
+
+             />
+             <label for="PHP">PHP</label>
+             <input 
+             type="checkbox" 
+             name="programingLanguage" 
+             id="PHP"
+             value="PHP"
+             
+
+             />
+             <label for="PHYTON">PHYTON</label>
+             <input 
+             type="checkbox" 
+             name="programingLanguage" 
+             id="PHYTON"
+             value="PHYTON"
+             
+             />
+<br /><br />
+
+
+            <label for="Birthday">Birthday:</label>
+                <input type="date" name="bday">
+ <br /><br />
+
+  
+
+        Gender:
+          <label for="Male">Male</label>
+            <input
+                type="radio"
+                name="Gender"
+                id="Male"
+                value="Male"
+            />
+            <label for="Female">Female</label>
+            <input
+                type="radio"
+                name="Gender"
+                id="Female"
+                value="Female"
+            />
+            <label for="wontDisclose">Won't Disclose</label>
+            <input
+                type="radio"
+                name="Gender"
+                id="wontDisclose"
+                value="Won't Disclose"
+            />
+            
+            <label for="LGBTQ">LGBTQ</label>
+            <input
+                type="radio"
+                name="Gender"
+                id="LGBTQ"
+                value="LGBTQ"
+            />
+
+
+    <br /><br />       
+            <label for="dropdown">Web Technology:</label>
+
+            <select 
+            name="dropdown" 
+            id="dropdown"
+            
+            />
+
+                    <option
+                    selected
+                    disabled
+                    >
+                        Please Select
+                
+                    </option>
+                    <option value="html">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="js">JavaScript</option>
+            </select>
+
+   
+    <br /><br />      
+
+                Rate your skills from 0 to 50:
+                <input
+                    type="range"
+                    name="range"
+                    min="0"
+                    max="50"
+                    step="10"
+                    value="0"
+                    />
+    <br /><br />
+            
+                Upload File:
+            <input type="file" 
+            name="document" 
+            accept=".xls, .docx"
+
+            >
+    <br /><br />
+            Time: 
+                <input type="time" name="time" />
+    <br /><br />
+            Month:
+                <input type="month" name="month"/>
+    <br /><br />
+            Week:
+                <input type="week" name="week"/>
+    <br /><br />
+            Pick a color:
+            <input type="color" name="color"
+            value="#FF5733" />
+    <br /><br />
+            Enter a number:
+            <input 
+            type="number"
+             name="number"
+             min="10"
+             max= "100"
+             />
+
+    <br /><br />
+            <input type="reset" value="Reset">
+            <input type="submit" value="Sign up">
+          
+    
+     <br /><br />
+
+    </form>
+
+
+
+</body>
+
+</html>

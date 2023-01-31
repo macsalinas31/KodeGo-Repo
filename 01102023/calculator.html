@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <style>
+      /* Add some styling for the calculator */
+      .calculator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .calculator input {
+        width: 80%;
+        height: 50px;
+        font-size: 20px;
+        text-align: right;
+      }
+      .calculator button {
+        width: 20%;
+        height: 50px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- Create an input field for the calculator -->
+      <input type="text" id="display" disabled></input>
+      <!-- Create buttons for the calculator -->
+      <button onclick="clear()">AC</button>
+      <button onclick="addNumber('/')">/</button>
+      <button onclick="addNumber('7')">7</button>
+      <button onclick="addNumber('8')">8</button>
+      <button onclick="addNumber('9')">9</button>
+      <button onclick="addNumber('*')">*</button>
+      <button onclick="addNumber('4')">4</button>
+      <button onclick="addNumber('5')">5</button>
+      <button onclick="addNumber('6')">6</button>
+      <button onclick="addNumber('-')">-</button>
+      <button onclick="addNumber('1')">1</button>
+      <button onclick="addNumber('2')">2</button>
+      <button onclick="addNumber('3')">3</button>
+      <button onclick="addNumber('+')">+</button>
+      <button onclick="addNumber('0')">0</button>
+      <button onclick="addNumber('.')">.</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <script>
+      // Initialize variables for the calculator
+      let displayValue = "0";
+      let pendingValue;
+      let evalStringArray = [];
+
+      // This function updates the display of the calculator
+      function updateDisplay() {
+        document.getElementById("display").value = displayValue;
+      }
+
+      // This function adds a number or operator to the display of the calculator
+      function addNumber(num) {
+        if (displayValue === "0") {
+          displayValue = num;
+        } else {
+          displayValue += num;
+        }
+        updateDisplay();
+      }
+
+      // This function clears the display of the calculator
+      function clear() {
+        displayValue = "0";
+        pendingValue = undefined;
+        evalStringArray = [];
+        updateDisplay();
+      }
+
+      // This function performs the calculation
+      function calculate() {
+        evalStringArray.push(displayValue);
+        let evaluation = eval(evalStringArray.join(" "));
+        displayValue = evaluation + "";
+        evalStringArray = [];
+        updateDisplay();
+      }
+    </script>
+  </body>
+</html

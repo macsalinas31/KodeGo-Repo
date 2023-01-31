@@ -1,0 +1,90 @@
+/* BG example */
+#div1
+{
+    width: 500px;
+    height: 400px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div2
+{
+    width: 300px;
+    height: 300px;
+    border: 3px dashed cadetblue;
+}
+.div3 
+{
+    background-color: darkgrey;
+    background-image: url(../images/walllamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 150px;
+    height: 150px; */
+}
+.div2.div3 
+{
+color: aliceblue;
+}
+.div4
+{
+    width: 250px;
+    height: 250px;
+    border: 2px double cyan;
+    background-color: lightgreen;
+}
+/* .main 
+{
+    background-image: url(../images/tagaytay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1080px;
+    height: 1920px;
+/* BG example */
+#div1
+{
+    width: 500px;
+    height: 400px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div2
+{
+    width: 300px;
+    height: 300px;
+    border: 3px dashed cadetblue;
+}
+.div3 
+{
+    background-color: darkgrey;
+    background-image: url(../images/walllamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 150px;
+    height: 150px; */
+}
+.div2.div3 
+{
+color: aliceblue;
+}
+.div4
+{
+    width: 250px;
+    height: 250px;
+    border: 2px double cyan;
+    background-color: lightgreen;
+}
+/* .main 
+{
+    background-image: url(../images/tagaytay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1080px;
+    height: 1920px;
